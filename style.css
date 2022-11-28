@@ -1,0 +1,83 @@
+:root {
+    --primary-color: #0d9488;
+    --black-900: #1e2025;
+    --blue-600: #2563eb;
+    --black-800: #22252a;
+}
+
+
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--primary-color);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    text-align: center;
+    background-color: bisque;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+
+textarea {
+
+    border: solid black;
+    background-color: transparent;
+    padding: 1.4rem 1rem;
+    font-size: 0.8rem;
+    color: white;
+    width: 100%;
+    margin-bottom: 2rem;
+
+}
+
+button {
+    background-color: var(--blue-600);
+    font-weight: 700;
+    padding: .5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#output {
+    border: solid black;
+    background-color: transparent;
+    padding: 3rem;
+    width: 100%;
+    margin-top: 2rem;
+
+}
+
+.container{
+        margin-left: auto;
+        margin-right: auto;
+
+      }
+
+.footer{
+    background-color: var(--black-800);
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: white;
+    padding: 2rem 0rem;
+    border-radius: 1rem;
+}
